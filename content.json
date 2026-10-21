@@ -130,7 +130,7 @@
         "skill-godot-level": "Intermédiaire",
         "skill-godot-acquisition": "IUT de Reims",
         "skill-godot-detail": "Godot est un moteur de jeu open-source, très utilisé pour le développement de jeux 2D et 3D. J'ai commencé à l'utiliser pour créer mes premiers jeux, et j'ai pu apprendre ses fonctionnalités principales, notamment la gestion des scènes, des nœuds et du langage GDScript.",
-        "skill-godot-icon": "fa-brands fa-gamepad",
+        "skill-godot-icon": "fa-solid fa-gamepad",
         "skill-ue-title": "Unreal Engine",
         "skill-ue-level": "Débutant",
         "skill-ue-acquisition": "IUT de Reims",
