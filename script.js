@@ -53,7 +53,7 @@ const levels = {
     apache: "45%",
     reseau: "70%",
     redac: "80%",
-    ue: "2%",
+    ue: "5%",
     godot: "35%",
     mcbuild: "75%"
 };
