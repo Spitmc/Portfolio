@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Vigne | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="bg-code">
+            <span id="typed-code"></span>
+        </div>
+        <div class="competences">
+            <h2 class="competences-title" data-i18n="competence-title">Stack et Compétences</h2>
+
+            <h3 data-i18n="dev-cat">Développement et Web</h3>
+            <div class="skill-group">
+                <div class="skill" data-skill="cpp"><i class="fa-solid fa-code icon"></i><span class="skill-title">C++</span></div>
+                <div class="skill" data-skill="html"><i class="fa-brands fa-html5 icon"></i><span class="skill-title">HTML5</span></div>
+                <div class="skill" data-skill="css"><i class="fa-brands fa-css3-alt icon"></i><span class="skill-title">CSS3</span></div>
+                <div class="skill" data-skill="js"><i class="fa-brands fa-js icon"></i><span class="skill-title">JavaScript / TypeScript</span></div>
+                <div class="skill" data-skill="react"><i class="fa-brands fa-react icon"></i><span class="skill-title">React</span></div>
+                <div class="skill" data-skill="symfony"><i class="fa-brands fa-symfony icon"></i><span class="skill-title">Symfony</span></div>
+                <div class="skill" data-skill="php"><i class="fa-brands fa-php icon"></i><span class="skill-title">PHP</span></div>
+                <div class="skill" data-skill="python"><i class="fa-brands fa-python icon"></i><span class="skill-title">Python</span></div>
+                <div class="skill" data-skill="sql"><i class="fa-solid fa-database icon"></i><span class="skill-title">SQL</span></div>
+                <div class="skill" data-skill="dart"><i class="fa-brands fa-dart-lang icon"></i><span class="skill-title">Dart</span></div>
+                <div class="skill" data-skill="flutter"><i class="fa-brands fa-flutter icon"></i><span class="skill-title">Flutter</span></div>
+            </div>
+
+            <h3 data-i18n="tool-cat">Outils et logiciels</h3>
+            <div class="skill-group">
+                <div class="skill" data-skill="oracledb"><i class="fa-solid fa-database icon"></i><span class="skill-title">Oracle DB</span></div>
+                <div class="skill" data-skill="MySQL"><i class="fa-solid fa-database icon"></i><span class="skill-title">MySQL</span></div>
+                <div class="skill" data-skill="docker"><i class="fa-brands fa-docker icon"></i><span class="skill-title">Docker</span></div>
+                <div class="skill" data-skill="git"><i class="fa-brands fa-git-alt icon"></i><span class="skill-title">Git</span></div>
+                <div class="skill" data-skill="planner"><i class="fa-brands fa-microsoft icon"></i><span class="skill-title">Planner</span></div>
+                <div class="skill" data-skill="apiplatform"><i class="fa-solid fa-code icon"></i><span class="skill-title">ApiPlatform</span></div>
+            </div>
+
+            <h3 data-i18n="system-cat">Système et réseau</h3>
+            <div class="skill-group">
+                <div class="skill" data-skill="linux"><i class="fa-brands fa-linux icon"></i><span class="skill-title">Linux</span></div>
+                <div class="skill" data-skill="apache"><i class="fa-solid fa-server icon"></i><span class="skill-title">Apache</span></div>
+                <div class="skill" data-skill="reseau"><i class="fa-solid fa-network-wired icon"></i><span class="skill-title">Réseau</span></div>
+            </div>
+            <h3 data-i18n="other-cat">Autres</h3>
+            <div class="skill-group">
+                <div class="skill" data-skill="redac" data-i18n="redac"><i class="fa-solid fa-pen icon"></i><span class="skill-title">Rédacteur Web</span></div>
+                <div class="skill" data-skill="ue"><i class="fa-solid fa-gamepad icon"></i><span class="skill-title marque">Unreal Engine</span></div>
+                <div class="skill" data-skill="godot"><i class="fa-solid fa-gamepad icon"></i><span class="skill-title marque">Godot</span></div>
+                <div class="skill" data-skill="mcbuild"><i class="fa-solid fa-hammer icon"></i><span class="skill-title">MC Builder</span></div>
+            </div>
+        </div>
+
+        <div class="profileAndProject">
+            <div class="Profile">
+                <h2>Vigne Lucas</h2>
+                <span class="resume" data-i18n="resume">
+                    Étudiant en BUT Informatique à Reims, je suis un jeune développeur ambitieux. Passionné par l'informatique et les jeux-vidéo, j'aime créer mes propres applications, et mener a bien des projets en développant mes compétences, nourrissant ma soif d'apprentissage. Ma passion pour le jeu-vidéo me pousse a avoir l'ambition d'intégrer l'industrie du jeu-vidéo, et mon rêve serait de pouvoir donner vie a mes idées librement.
+                </span>
+                <div class="CitationAndHour">
+                    <span>"Hello World"</span>
+                    <p id="dateHour"></p>
+                </div>
+            </div>
+            <div class="projects">
+                <h2 class="projects-title" data-i18n="projects-title">Projets</h2>
+                <div class="project">
+                    <h3 data-i18n="project-1-title">Resto'N</h3>
+                    <span class="badge" data-i18n="project-1-tech-1">Symfony</span>
+                    <span class="badge" data-i18n="project-1-tech-2">MySQL</span>
+                    <span class="badge" data-i18n="project-1-tech-3">Planner</span>
+                    <span class="project-resume" data-i18n="project-one-resume">Une application permettant aux restaurant de gérer leur restaurant en ligne, et de proposer des commandes et réservations</span>
+                </div>
+                <div class="project">
+                    <h3 data-i18n="project-2-title">Jeux-Vidéo (Plateforme et autre) sur Godot</h3>
+                    <span class="badge" data-i18n="project-2-tech-1">PHP</span>
+                    <span class="badge" data-i18n="project-2-tech-2">HTML</span>
+                    <span class="badge" data-i18n="project-2-tech-3">CSS</span>
+                    <span class="project-resume" data-i18n="project-two-resume">Jeu de plateforme développé avec le moteur Godot. Un deuxième projet est en cours de développement, plus d'information seront disponibles bientôt.</span>
+                </div>
+                <div class="project">
+                    <h3 data-i18n="project-3-title">Portfolio</h3>
+                    <span class="badge" data-i18n="project-3-tech-1">HTML</span>
+                    <span class="badge" data-i18n="project-3-tech-2">CSS</span>
+                    <span class="badge" data-i18n="project-3-tech-3">JavaScript</span>
+                    <span class="project-resume" data-i18n="project-three-resume">Mon Portfolio, vitrine virtuelle de mes projets et compétences développées a ce jour, que vous visitez actuellement</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="CVLinksAndContact">
+            <a href="#" class="cv-download" download="CV_Vigne_Lucas.pdf" id="cv-link" data-i18n="cv">
+                <i class="fa-solid fa-file-arrow-down"></i> Télécharger mon CV
+            </a>
+
+            <p class="links-title" data-i18n="network-title">Réseaux et plateformes</p>
+            <div class="Links">
+                <a href="https://www.linkedin.com/in/lucas-vigne-03454628a/" class="link" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Spitmc" class="link" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+            </div>
+            <a href="mailto:ls.vigne@gmail.com" class="phone"><i class="fa-solid fa-at"></i>ls.vigne@gmail.com</a>
+            <p class="contact-title">Contact</p>
+            <div class="Contact">
+                <form action="https://formsubmit.co/ls.vigne@gmail.com" method="POST">
+                    <div>
+                        <label data-i18n="label-mail">Adresse email</label>
+                        <input type="email" class="form-control" id="input-mail">
+                    </div>
+                    <div>
+                        <label data-i18n="label-object">Objet</label>
+                        <input type="text" class="form-control" id="input-object">
+                    </div>
+                    <div>
+                        <label data-i18n="label-message">Message</label>
+                        <textarea class="form-control" id="input-message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit" data-i18n="form-button">Envoyer</button>
+                </form>
+            </div>
+            <div class="lang-switch">
+                <button onclick="setLanguage('fr')" class="active">FR</button>
+                <span>|</span>
+                <button onclick="setLanguage('en')">EN</button>
+            </div>
+        </div>
+        <div id="popup" class="popup-skill">
+            <div class="popup-skill-header">
+                <i class="popup-skill-icon"></i>
+                <h2 class="popup-skill-title" id="popup-skill-title"></h2>
+                <button class="popup-close" onclick="fermerPopup()">×</button>
+            </div>
+            <a id="popup-skill-link" href="https://www.rockstarmag.fr/author/spitmc/" target="_blank" class="link-popup" style="display:none; margin-bottom: 1.5vh;">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Voir le site
+            </a>
+            <div class="level">
+                <h3 data-i18n="lvl">Niveau de maîtrise</h3>
+                <div class="progress-bar">
+                    <div id="popup-progress" class="progress-bar-fill"></div>
+                </div>
+                <span id="popup-skill-span" class="popup-skill-span"></span>
+            </div>
+            <div class="purchase">
+                <h3 data-i18n="acquisition">Comment je l'ai acquis ?</h3>
+                <span id="popup-skill-purchase"></span>
+            </div>
+            <div class="skill-detail">
+                <h3 data-i18n="project-detail">Détails</h3>
+                <span id="popup-skill-detail" class="popup-skill-detail"></span>
+            </div>
+        </div>
+        <div class="popup-project">
+            <div class="popup-project-header">
+                <h2 id="popup-project-title" class='popup-project-title'></h2>
+                <div class="nav-popup-project">
+                    <a href="https://github.com/Spitmc" class="link-popup" target="_blank">
+                        <i class="fa-brands fa-github"></i> Github
+                    </a>
+                    <button class="popup-close" onclick="fermerProjectPopup()">×</button>
+                </div>
+            </div>
+            <span class="badge project-date"></span>
+            <div id="popup-project-technos" class="popup-project-technos"></div>
+            <span id="popup-project-details" class="popup-project-details"></span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
